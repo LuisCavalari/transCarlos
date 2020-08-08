@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Transpor site",
   "scripts": {
-    "start": "node src/server"
+    "start": "node src/"
   },
   "main": "index.js",
   "repository": "https://github.com/LuisCavalari/transCarlos.git",
   "author": "Luis Cavalari <luiscavalari@ufpr.br>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mustache-express": "^1.3.0"
   }
 }
