@@ -2,8 +2,14 @@
   "name": "transCarlos",
   "version": "1.0.0",
   "description": "Transpor site",
+  "scripts": {
+    "start": "node src/server"
+  },
   "main": "index.js",
   "repository": "https://github.com/LuisCavalari/transCarlos.git",
   "author": "Luis Cavalari <luiscavalari@ufpr.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
