@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/",
-    "build": "gulp build"
+    "build": "gulp build && yarn start"
   },
   "main": "index.js",
   "repository": "https://github.com/LuisCavalari/transCarlos.git",
