@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Transpor site",
   "scripts": {
-    "start": "node src/"
+    "start": "node src/index.js",
+    "dev": "nodemon src/",
+    "build": "gulp build"
   },
   "main": "index.js",
   "repository": "https://github.com/LuisCavalari/transCarlos.git",
@@ -17,7 +19,9 @@
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "nodemon": "^2.0.4"
   }
 }

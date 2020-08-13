@@ -5,7 +5,7 @@ const path = require('path')
 
 const app = express()
 
-app.engine('mst', mustache())
+app.engine('mst', mustache(path.resolve(__dirname, 'view', 'partials'), '.mst'))
 app.set('view engine', 'mst')
 app.set('views', path.resolve(__dirname, 'view'))
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransCarlos Mudanças</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/css/styles.css">
+</head>
+
+<body>
+    <div class="nav-mobile">
+        <div class="nav-mobile-close">
+            <span class="material-icons">
+                close
+            </span>
+        </div>
+        <ul>
+            <li>Início</li>
+            <li>Orçamento</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    <header class="menu--wrapper">
+        <div class="menu--content">
+            <div class="menu-container">
+                <div class="menu--mobile">
+                    <span class="material-icons">
+                        menu
+                    </span>
+                </div>
+                <img id="logo" src="/dist/img/logo.png" alt="">
+                <nav class="menu-nav">
+                    <ul>
+                        <li><a>Início</a></li>
+                        <li>Orçamento</li>
+                        <li>Contato</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>

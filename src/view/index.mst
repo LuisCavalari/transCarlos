@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{{> header}}
+<span>home</span>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
-    <title>TransCarlos</title>
-</head>
-
-<body>
-    <strong>Hello World</strong>
 </body>
 
 </html>
