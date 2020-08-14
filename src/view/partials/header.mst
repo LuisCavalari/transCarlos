@@ -17,15 +17,36 @@
             </span>
         </div>
         <ul>
-            <li>Início</li>
-            <li>Orçamento</li>
-            <li>Contato</li>
+            <a href="">
+                <li>
+                    <span class="material-icons">
+                        home
+                    </span>
+                    Início
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <span class="material-icons">
+                        payments
+                    </span>
+                    Orçamento
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <span class="material-icons">
+                        phone
+                    </span>
+                    Contato
+                </li>
+            </a>
         </ul>
     </div>
     <header class="menu--wrapper">
         <div class="menu--content">
             <div class="menu-container">
-                <div class="menu--mobile">
+                <div id="menu-mobile" class="menu--mobile">
                     <span class="material-icons">
                         menu
                     </span>

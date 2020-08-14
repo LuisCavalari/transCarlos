@@ -1,0 +1,1 @@
+"use strict";function toogleMenuMobile(){document.querySelector(".nav-mobile").classList.toggle("active")}window.onload=function(){var e=document.getElementById("menu-mobile"),o=document.querySelector(".nav-mobile-close");e.onclick=toogleMenuMobile,o.onclick=toogleMenuMobile};

@@ -4,6 +4,7 @@ const gulpUglify = require('gulp-uglify')
 const gulpConcat = require('gulp-concat')
 const gulpCleanCss = require('gulp-clean-css')
 const gulpImageMinify = require('gulp-imagemin')
+const gulpBabel = require('gulp-babel')
 
 const jsSrc = './src/public/assets/js/*.js'
 const jsDist = './src/public/dist/js'
@@ -13,6 +14,9 @@ const jsDistName = 'script.js'
 gulp.task('scripts', () =>
     gulp.src(jsSrc)
         .pipe(gulpPlumber())
+        .pipe(gulpBabel({
+            presets: ['es2015']
+        }))
         .pipe(gulpUglify())
         .pipe(gulpConcat(jsDistName))
         .pipe(gulp.dest(jsDist))
@@ -43,7 +47,6 @@ gulp.task('images', () =>
 )
 
 exports.build = gulp.series(['scripts', 'styles', 'images'])
-
 
 
 exports.default = function () {
