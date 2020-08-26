@@ -3,7 +3,7 @@
 <body>
     <h2 class="main-title">Orçamento</h2>
     <div class="container">
-        <form action="">
+        <form method="POST">
             <div class="input-row">
                 <div class="input">
                     <input placeholder="Nome" name="name" type="text">
@@ -20,13 +20,13 @@
             </div>
             <div class="input-row">
                 <div class="input">
-                    <input placeholder="Endereço de partida" placeholder="start_address" type="text">
+                    <input placeholder="Endereço de partida" name="start_address" type="text">
                     <span class="material-icons">
                         map
                     </span>
                 </div>
                 <div class="input">
-                    <input type="text" placeholder="finish_address" placeholder="Endereço de chegada">
+                    <input type="text" name="finish_address" placeholder="Endereço de chegada">
                     <span class="material-icons">
                         map
                     </span>
