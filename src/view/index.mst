@@ -3,9 +3,82 @@
     <img src="/dist/img/truck.png" alt="">
     <div class="slogan">
         <h2>Frota propria</h2>
-        <a href=""><button>Faça um orçamento</button></a>
+        <a href="/orcamento"><button>Faça um orçamento</button></a>
     </div>
 </section>
+<main>
+    <div class="container">
+        <h2 class="main-title">Nossos serviços</h2>
+        <ul class="service-list">
+            <li>
+                <div class="left">
+                    <img src="/dist/img/delivery.png" alt="delivery">
+                    <h2 class="service-title">Mudanças para todo o Brasil</h2>
+                    <span class="service-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Accusantium fuga, rem dicta aspernatur sequi ipsum nihil consequuntur. Maiores qui officiis
+                        quae. At consequuntur magni animi blanditiis, sint praesentium officiis nobis.
+                    </span>
+                </div>
+                <div class="right">
+                    <img src="/dist/img/loading_truck.png" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="left">
+                    <img src="/dist/img/tools.png" alt="delivery">
+                    <h2 class="service-title">Montagem e desmontagem de moveis</h2>
+                    <span class="service-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Accusantium fuga, rem dicta aspernatur sequi ipsum nihil consequuntur. Maiores qui officiis
+                        quae. At consequuntur magni animi blanditiis, sint praesentium officiis nobis.
+                    </span>
+                </div>
+                <div class="right">
+                    <img src="/dist/img/building_table.png" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="left">
+                    <img src="/dist/img/warehouse.png" alt="delivery">
+                    <h2 class="service-title">Guarda moveis</h2>
+                    <span class="service-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Accusantium fuga, rem dicta aspernatur sequi ipsum nihil consequuntur. Maiores qui officiis
+                        quae. At consequuntur magni animi blanditiis, sint praesentium officiis nobis.
+                    </span>
+                </div>
+                <div class="right">
+                    <img src="/dist/img/storage.png" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="left">
+                    <img src="/dist/img/box.png" alt="delivery">
+                    <h2 class="service-title">Embalagens</h2>
+                    <span class="service-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Accusantium fuga, rem dicta aspernatur sequi ipsum nihil consequuntur. Maiores qui officiis
+                        quae. At consequuntur magni animi blanditiis, sint praesentium officiis nobis.
+                    </span>
+                </div>
+                <div class="right">
+                    <img src="/dist/img/boxs.png" alt="">
+                </div>
+            </li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <div class="container footer__area">
+        <ul class="contact-list">
+            <li><span class="material-icons">call</span> (41) 9869-3048</li>
+            <li><span class="material-icons">mail</span> email@email</li>
+        </ul>
+    </div>
+</footer>
+
 <script src="/dist/js/script.js"></script>
 </body>
 

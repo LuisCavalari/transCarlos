@@ -1,0 +1,46 @@
+{{> header}}
+
+<body>
+    <h2 class="main-title">Orçamento</h2>
+    <div class="container">
+        <form action="">
+            <div class="input-row">
+                <div class="input">
+                    <input placeholder="Nome" type="text">
+                    <span class="material-icons">
+                        account_circle
+                    </span>
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Telefone">
+                    <span class="material-icons">
+                        phone
+                    </span>
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input">
+                    <input placeholder="Endereço de partida" type="text">
+                    <span class="material-icons">
+                        map
+                    </span>
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Endereço de chegada">
+                    <span class="material-icons">
+                        map
+                    </span>
+                </div>
+            </div>
+            <textarea name="itens"
+                placeholder="Digite os itens que deseja levar na mudança, ex: 1 estante, 2 guarda roupas etc..." id=""
+                cols="30" rows="15"></textarea>
+            <button class="button-submit" type="submit">Enviar</button>
+
+        </form>
+
+    </div>
+    <script src="/dist/js/script.js"></script>
+</body>
+
+</html>
