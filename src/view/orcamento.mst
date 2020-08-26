@@ -6,13 +6,13 @@
         <form action="">
             <div class="input-row">
                 <div class="input">
-                    <input placeholder="Nome" type="text">
+                    <input placeholder="Nome" name="name" type="text">
                     <span class="material-icons">
                         account_circle
                     </span>
                 </div>
                 <div class="input">
-                    <input type="text" placeholder="Telefone">
+                    <input type="text" name="phone" placeholder="Telefone">
                     <span class="material-icons">
                         phone
                     </span>
@@ -20,13 +20,13 @@
             </div>
             <div class="input-row">
                 <div class="input">
-                    <input placeholder="Endereço de partida" type="text">
+                    <input placeholder="Endereço de partida" placeholder="start_address" type="text">
                     <span class="material-icons">
                         map
                     </span>
                 </div>
                 <div class="input">
-                    <input type="text" placeholder="Endereço de chegada">
+                    <input type="text" placeholder="finish_address" placeholder="Endereço de chegada">
                     <span class="material-icons">
                         map
                     </span>
