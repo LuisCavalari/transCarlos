@@ -1,1 +1,39 @@
-{{ name }}
+<style>
+    * {
+        font-family: sans-serif;
+
+    }
+
+    span {
+        display: block;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    strong,
+    h1 {
+        color: #2862FA;
+    }
+
+    .container {
+        max-width: 1100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        min-height: 300px;
+    }
+</style>
+<div class="container">
+    <h1>Nova solicitação de orçamento</h1>
+    <span>Nome: <strong>{{ name }}</strong></span>
+
+    <span>Telefone: <strong>{{ phone }}</strong></span>
+
+    <span>Endereço de partida: <strong>{{ start_address }}</strong></span>
+
+    <span>Endereço de chegada: <strong>{{ finish_address }}</strong></span>
+    <span>Itens da mudança: <strong>{{ itens }}</strong></span>
+</div>

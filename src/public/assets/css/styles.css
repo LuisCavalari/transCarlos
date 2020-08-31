@@ -334,6 +334,33 @@ textarea::placeholder {
 .button-submit:hover {
      opacity: 0.7;
 }
+.toast {
+     position: fixed;
+     display: flex;
+     align-items: center;
+     top:10px;
+     right: 10px;
+     padding: 15px 30px;
+     color:#FFF;
+     font-size: 18px;
+     font-weight: bold;
+     -webkit-box-shadow: 0px 0px 71px -19px rgba(189,189,189,0.88);
+     -moz-box-shadow: 0px 0px 71px -19px rgba(189,189,189,0.88);
+     box-shadow: 0px 0px 71px -19px rgba(189,189,189,0.88);
+     border-radius: 4px;
+     z-index: 1000;
+     transition: all 1s linear;
+
+}
+.toast span {
+     margin-right: 6px;
+}
+.success {
+      background-color: rgb(10, 184, 76);
+}
+.error {
+     background-color:red;
+}
 
  @media only screen and (max-width:1000px) {
       .menu-nav {

@@ -10,6 +10,14 @@
 </head>
 
 <body>
+    {{#flashes}}
+    {{#success}}
+    <div class="toast success"> <span class="material-icons">done</span> {{.}}</div>
+    {{/success}}
+    {{#error}}
+    <div class="toast error"> <span class="material-icons">error</span> {{.}}</div>
+    {{/error}}
+    {{/flashes}}
     <div class="nav-mobile">
         <div class="nav-mobile-close">
             <span class="material-icons">
