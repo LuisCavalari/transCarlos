@@ -6,6 +6,9 @@
      box-sizing: border-box;
      font-family: 'Roboto',sans-serif;
  }
+ body , html {
+      min-height: 100vh;
+ }
  .container {
       max-width: 1120px;
       margin:0 auto;
@@ -237,9 +240,19 @@ main {
 }
 footer {
      background-color:#2862FA;
+     height: 230px;
+     margin-top:25px;
+     
+}
+.icon {
+     height: 24px;
+     width: 24px;
 }
 .footer__area {
+     color:#FFf;
+     height: 100%;
      display: flex;
+     flex-direction: column;
      justify-content: center;
      align-items: center;
      padding: 20px;

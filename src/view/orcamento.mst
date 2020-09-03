@@ -6,13 +6,13 @@
     <form method="POST">
         <div class="input-row">
             <div class="input">
-                <input placeholder="Nome" name="name" type="text">
+                <input required placeholder="Nome" name="name" type="text">
                 <span class="material-icons">
                     account_circle
                 </span>
             </div>
             <div class="input">
-                <input type="text" name="phone" placeholder="Telefone">
+                <input required type="text" name="phone" placeholder="Telefone">
                 <span class="material-icons">
                     phone
                 </span>
@@ -20,19 +20,19 @@
         </div>
         <div class="input-row">
             <div class="input">
-                <input placeholder="Endereço de partida" name="start_address" type="text">
+                <input required placeholder="Endereço de partida" name="start_address" type="text">
                 <span class="material-icons">
                     map
                 </span>
             </div>
             <div class="input">
-                <input type="text" name="finish_address" placeholder="Endereço de chegada">
+                <input required type="text" name="finish_address" placeholder="Endereço de chegada">
                 <span class="material-icons">
                     map
                 </span>
             </div>
         </div>
-        <textarea name="itens"
+        <textarea name="itens" required
             placeholder="Digite os itens que deseja levar na mudança, ex: 1 estante, 2 guarda roupas etc..." id=""
             cols="30" rows="15"></textarea>
         <button class="button-submit" type="submit">Enviar</button>

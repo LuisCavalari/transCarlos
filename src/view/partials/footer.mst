@@ -1,8 +1,11 @@
 <footer>
     <div class="container footer__area">
+        <h2>Contato</h2>
         <ul class="contact-list">
             <li><span class="material-icons">call</span> (41) 9869-3048</li>
-            <li><span class="material-icons">mail</span> email@email</li>
+            <li><span class="material-icons">mail</span> Transcarlos1@hotmail.com.br</li>
+            <li><span class=""> <img class="icon" src="/dist/img/facebook.png" alt="facebook"> </span>Trans Carlos
+                Mudanças</li>
         </ul>
     </div>
 </footer>
