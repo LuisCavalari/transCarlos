@@ -233,16 +233,20 @@ main {
 }
 .service-description { 
      margin-top:20px;
-     font-size: 18px;
+     font-size: 19px;
      color:#5F5F5F;
      font-weight: 700;
      text-align: center;
+     line-height: 30px;
 }
 footer {
      background-color:#2862FA;
      height: 230px;
      margin-top:25px;
      
+}
+strong {
+      color:#2862FA;
 }
 .icon {
      height: 24px;
@@ -373,6 +377,26 @@ textarea::placeholder {
 }
 .error {
      background-color:red;
+}
+.whatsapp img {
+     width: 42px;
+     height: 42px;
+}
+.whatsapp {
+     position: fixed;
+     bottom: 15px;
+     right: 15px;
+     z-index: 99999999;
+}
+.hero {
+     margin-top: 15px;
+     min-height: 500px;
+     width: 100%;
+     background: url('/dist/img/road.jpg');
+     background-position:center;
+     background-repeat: no-repeat;
+     background-attachment:fixed ;
+     background-size: cover;
 }
 
  @media only screen and (max-width:1000px) {

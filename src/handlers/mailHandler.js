@@ -1,13 +1,14 @@
+require('dotenv').config()
 const nodemailer = require('nodemailer')
 const handleBars = require('nodemailer-express-handlebars')
 const path = require('path')
 
 const tranporter = nodemailer.createTransport({
-    host: "smtp.mailtrap.io",
-    port: 2525,
+    host: process.env.MAIL_HOST,
+    port: process.env.MAIL_PORT,
     auth: {
-        user: "0089dc1adfee86",
-        pass: "7faa4d690ac1dd"
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS
     }
 })
 

@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=554198693048&text=%20">
+        <img src="/dist/img/whatsapp.png" alt="">
+    </a>
     {{#flashes}}
     {{#success}}
     <div class="toast success"> <span class="material-icons">done</span> {{.}}</div>
@@ -41,7 +44,7 @@
                     Orçamento
                 </li>
             </a>
-            <a href="#">
+            <a href="#contact">
                 <li>
                     <span class="material-icons">
                         phone
@@ -68,7 +71,7 @@
                         <a href="/orcamento">
                             <li>Orçamento</li>
                         </a>
-                        <a href="/orcamento">
+                        <a href="#contact">
                             <li>Contato</li>
                         </a>
 

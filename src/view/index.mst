@@ -15,9 +15,11 @@
                     <img src="/dist/img/delivery.png" alt="delivery">
                     <h2 class="service-title">Mudanças para todo o Brasil</h2>
                     <span class="service-description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Accusantium fuga, rem dicta aspernatur sequi ipsum nihil consequuntur. Maiores qui officiis
-                        quae. At consequuntur magni animi blanditiis, sint praesentium officiis nobis.
+                        Precisando fazer aquela mudança ? A <strong>TransCarlos</strong>
+                        pode te ajudar! Realizamos <strong>mudanças estaduais </strong>
+                        e
+                        <strong>interestaduais</strong>,
+                        possuímos frota própria e preço imbátivel
                     </span>
                 </div>
                 <div class="right">
@@ -29,9 +31,7 @@
                     <img src="/dist/img/tools.png" alt="delivery">
                     <h2 class="service-title">Montagem e desmontagem de moveis</h2>
                     <span class="service-description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Accusantium fuga, rem dicta aspernatur sequi ipsum nihil consequuntur. Maiores qui officiis
-                        quae. At consequuntur magni animi blanditiis, sint praesentium officiis nobis.
+                        Realizamos montagem e desmontagem de mesas, guarda roupas, armário etc...
                     </span>
                 </div>
                 <div class="right">
@@ -43,9 +43,7 @@
                     <img src="/dist/img/warehouse.png" alt="delivery">
                     <h2 class="service-title">Guarda moveis</h2>
                     <span class="service-description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Accusantium fuga, rem dicta aspernatur sequi ipsum nihil consequuntur. Maiores qui officiis
-                        quae. At consequuntur magni animi blanditiis, sint praesentium officiis nobis.
+                        Contamos com o serviço de guarda moveis, onde você pode armazenar seus pertences de forma segura
                     </span>
                 </div>
                 <div class="right">
@@ -57,18 +55,32 @@
                     <img src="/dist/img/box.png" alt="delivery">
                     <h2 class="service-title">Embalagens</h2>
                     <span class="service-description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Accusantium fuga, rem dicta aspernatur sequi ipsum nihil consequuntur. Maiores qui officiis
-                        quae. At consequuntur magni animi blanditiis, sint praesentium officiis nobis.
+                        Possuímos embalagens de alta qualidade para transportar sua mudança de forma segura e eficiente
                     </span>
                 </div>
                 <div class="right">
                     <img src="/dist/img/boxs.png" alt="">
                 </div>
             </li>
+            <li>
+                <div class="left">
+                    <img src="/dist/img/crane.png" alt="delivery">
+                    <h2 class="service-title">Içamento de moveis</h2>
+                    <span class="service-description">
+                        Contamos com o serviço de içamento de moveis, ideal para lugares de dificil acesso, como
+                        apartamentos ou ultimo andar de uma casa
+                    </span>
+                </div>
+                <div class="right">
+                    <img src="/dist/img/icamento_movel.jpg" alt="Içamento de moveis">
+                </div>
+            </li>
         </ul>
     </div>
 </main>
+<div class="hero">
+
+</div>
 
 {{>footer}}
 

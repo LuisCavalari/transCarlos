@@ -1,4 +1,4 @@
-<footer>
+<footer id="contact">
     <div class="container footer__area">
         <h2>Contato</h2>
         <ul class="contact-list">
