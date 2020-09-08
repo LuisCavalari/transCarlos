@@ -26,7 +26,7 @@
                 </span>
             </div>
             <div class="input">
-                <input required type="text" name="finish_address" placeholder="Endereço de chegada">
+                <input required  type="text" name="finish_address" placeholder="Endereço de chegada">
                 <span class="material-icons">
                     map
                 </span>
