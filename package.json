@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Transpor site",
   "scripts": {
+    "prestart": "npm i",
     "start": "node src/index.js",
     "dev": "nodemon src/",
     "build": "gulp build"
