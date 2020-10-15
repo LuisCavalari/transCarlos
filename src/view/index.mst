@@ -1,8 +1,12 @@
 {{> header}}
 <section class="banner">
-    <img src="/dist/img/truck.png" alt="">
+    <img id="truck" src="/dist/img/truck.png" alt="">
     <div class="slogan">
         <h2>Frota propria</h2>
+        <div class="payment">
+            <h3>Parcelamento em até 10x sem juros</h3>
+            <img src="/dist/img/cartao.png" alt="">
+        </div>
         <a href="/orcamento"><button>Faça um orçamento</button></a>
     </div>
 </section>

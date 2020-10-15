@@ -141,7 +141,7 @@ a {
      justify-content: center;
      align-items: center;
 }
-.banner img {
+#truck {
      width: 100%;
      min-height: 300px;
      z-index: 1;
@@ -166,6 +166,7 @@ a {
      z-index: 3;
      font-weight: bold;
      font-size: 64px;
+     text-align: center;
 }
 .slogan a {
       display: flex;
@@ -185,6 +186,16 @@ a {
      font-weight: bold;
      outline: none;
      cursor: pointer;
+}
+.payment {
+     margin-top: 15px;
+}
+.payment h3 { 
+     font-size: 36px;
+}
+.payment img {
+     max-width: 400px;
+     height: auto;
 }
 main {
      margin-top:15px;
